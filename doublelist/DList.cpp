@@ -37,7 +37,7 @@ int DList::DList_IsEmpty()
 
 DList_Node * DList::Get_Node(int index)
 {
-    if(index<0||index>=0)
+    if(index<0||index>=count)
     {
         printf("get node failed! the index in out of bound!\r\n");
         return NULL;
